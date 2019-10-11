@@ -36,4 +36,4 @@ const chair = () => {
 
 console.table(chair(column))
 
-module.expots = chair
+module.exports = chair
