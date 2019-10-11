@@ -22,21 +22,69 @@
     <main class="container">
 
         <section class="desktop">
+            <div>
             <img src="image/whisky.png" alt="a whisky glass" class="whisky" />
             <img src="image/empty_whisky.png" alt="an empty whisky glass" class="empty-whisky" />
+            </div>
 
             <div class="pages">
                 <div class="page leftpage">
                     Add a bribe
-                    <!-- TODO : Form -->
+                    <form>
+                        <div class="name">  
+                            <label for="name">Name</label>
+                            <input id="name" name="name" /><br/>
+                            </label>
+                        </div>
+                                  
+                        <div class="payement">
+                            <label for="">Payment</label>
+                            <select id="payment" name="payment" size="1">
+                            <option value="choix1">Cash</option>
+                            <option value="choix2">Credit Card</option>
+                            </select>
+                            
+                        </div>
+                        <input type="submit" value="Pay !">
+                        </form>
                 </div>
 
                 <div class="page rightpage">
+                    <h1>S</h1>
+                <hr>
+                <div class="total">
+                    <div class="listName">
+                        <li>Sam Burns</li>
+                        <li>Samuel Yans</li>
+                        <li>Simon Pogg</li>
+                        <li>Sophia Maria</li>
+                        <li>StacieHunberg</li>
+                        <li>SteveGrant</li>
+                        <li>Steve Potcher</li>
+                        <li>Sylvester Stallan</li>
+                        <li>Szen Tren</li>
+                        <li>Total</li>
+                    </div>
+
+                    <div class="prices">
+                        <li>100€</li>
+                        <li>52563€</li>
+                        <li>52€</li>
+                        <li>452€</li>
+                        <li>568€</li>
+                        <li>1000€</li>                        <li>7865€</li>
+                        <li>77897€</li>
+                        <li>562€</li>
+                        <hr>
+                        <li>141059€</li>
+                    </div>
                     <!-- TODO : Display bribes and total paiement -->
                 </div>
+            </div>    
             </div>
             <img src="image/inkpen.png" alt="an ink pen" class="inkpen" />
         </section>
+
     </main>
 </body>
 
